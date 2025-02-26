@@ -1,0 +1,1 @@
+.\venv\Scripts\activate; python -m pip install --upgrade pip; if(Test-Path requirements.txt){pip install -r requirements.txt}else{Write-Host "requirements.txt not found. No dependencies installed."}; python .\main.py

@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: [3.12]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+        pip install -r requirements.txt
+    - name: Build with PyInstaller
+      run: |
+        pyinstaller --onefile --windowed --icon=src/resources/icons/sherlock.ico src/main.py --name SherlockGUI
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: SherlockGUI-${{ matrix.os }}
+        path: dist/
