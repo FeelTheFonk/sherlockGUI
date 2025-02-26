@@ -81,14 +81,14 @@
   <summary><strong>Installation depuis la source</strong></summary>
   <div style="padding:15px">
     <pre><code>
-# Cloner le dépôt
+- Cloner le dépôt
 git clone https://github.com/FeelTheFonk/sherlockGui.git
 cd sherlock-gui
 
-# Installer les dépendances
+- Installer les dépendances
 pip install -r requirements.txt
 
-# Lancer l'application
+- Lancer l'application
 python main.py
     </code></pre>
   </div>
@@ -188,7 +188,7 @@ python main.py
 
 <div style="display:flex; flex-wrap:wrap; gap:20px; margin:20px 0;">
   <div style="flex:1; min-width:200px; text-align:center;">
-    <img src="https://github.com/sherlock-project/sherlock/raw/master/images/sherlock_header.png" alt="Sherlock Project" height="60">
+    <img src="https://github.com/sherlock-project/sherlock/blob/master/docs/images/sherlock-logo.png" alt="Sherlock Project" height="60">
     <p>L'outil original sur lequel cette interface est basée</p>
   </div>
   
@@ -198,11 +198,7 @@ python main.py
   </div>
   
   <div style="flex:1; min-width:200px; text-align:center;">
-    <img src="https://tcl.tk/images/Tcl-Tk-logo.jpg" alt="Tkinter" height="60">
+    <img src="https://raw.githubusercontent.com/MisbahSirnaik/Python-Tkinter/refs/heads/master/icon.ico" alt="Tkinter" height="60">
     <p>La bibliothèque d'interface graphique utilisée</p>
   </div>
-</div>
-
-<div align="center">
-  <p>Copyright © 2025 SherlockGUI Team</p>
 </div>
