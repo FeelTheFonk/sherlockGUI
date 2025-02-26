@@ -23,9 +23,9 @@ jobs:
             asset_name: sherlock-gui-macos
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.12
     - name: Install dependencies
@@ -37,7 +37,7 @@ jobs:
       run: |
         pyinstaller --onefile --windowed --icon=src/resources/icons/sherlock.ico src/main.py --name ${{ matrix.artifact_name }}
     - name: Upload Release Asset
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         files: dist/${{ matrix.artifact_name }}
       env:
