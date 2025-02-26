@@ -22,7 +22,7 @@
       <p>SherlockGUI est une interface graphique pour <a href="https://github.com/sherlock-project/sherlock">Sherlock</a>, un outil puissant permettant de rechercher des noms d'utilisateur à travers plus de 400 réseaux sociaux et sites web. Cette interface offre une expérience utilisateur intuitive et rend l'utilisation de Sherlock accessible à tous.</p>
     </td>
     <td width="30%" align="center">
-      <img src="docs/images/app-preview.png" alt="Aperçu de l'application" width="100%">
+      <img src="demo.png" alt="Aperçu de l'application" width="100%">
     </td>
   </tr>
 </table>
@@ -81,14 +81,12 @@
   <summary><strong>Installation depuis la source</strong></summary>
   <div style="padding:15px">
     <pre><code>
-- Cloner le dépôt
+
 git clone https://github.com/FeelTheFonk/sherlockGui.git
 cd sherlock-gui
 
-- Installer les dépendances
 pip install -r requirements.txt
 
-- Lancer l'application
 python main.py
     </code></pre>
   </div>
@@ -167,8 +165,6 @@ python main.py
 <hr>
 
 </div>
-
-<p>Veuillez consulter le fichier <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> pour plus de détails sur notre processus de contribution.</p>
 
 <hr>
 
