@@ -114,8 +114,3 @@ Veuillez consulter le fichier [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de d�
 - [Tkinter](https://docs.python.org/3/library/tkinter.html) - La bibliothèque d'interface graphique utilisée
 
 ---
-
-<div align="center">
-  <p>Développé avec ❤️ pour la communauté OSINT</p>
-  <p>© 2025 SherlockGUI Team</p>
-</div>
