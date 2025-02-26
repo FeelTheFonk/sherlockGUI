@@ -166,18 +166,6 @@ python main.py
 
 <hr>
 
-<h2>Contribution</h2>
-
-<p>Les contributions sont les bienvenues ! Pour contribuer à SherlockGUI :</p>
-
-<div style="background-color:#f6f8fa; padding:15px; border-radius:5px; margin:10px 0; font-family:monospace;">
-  git clone https://github.com/FeelTheFonk/sherlockGui.git<br>
-  cd sherlock-gui<br>
-  git checkout -b feature/ma-nouvelle-fonctionnalite<br>
-  # Développement de votre fonctionnalité<br>
-  git commit -m "Ajout de ma nouvelle fonctionnalité"<br>
-  git push origin feature/ma-nouvelle-fonctionnalite<br>
-  # Créez ensuite une Pull Request sur GitHub
 </div>
 
 <p>Veuillez consulter le fichier <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> pour plus de détails sur notre processus de contribution.</p>
