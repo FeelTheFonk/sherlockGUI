@@ -2,49 +2,85 @@
 
 <div align="center">
   <img src="sherlock.png" alt="SherlockGUI Logo" width="200">
-  <br>
-  <p><strong>Interface graphique pour Sherlock - Détecteur de noms d'utilisateur sur les réseaux sociaux</strong></p>
+  <h3>Interface graphique pour Sherlock</h3>
+  <h4>Détecteur de noms d'utilisateur sur les réseaux sociaux</h4>
+  
   <p>
     <a href="https://github.com/sherlock-project/sherlock"><img src="https://img.shields.io/badge/Basé%20sur-Sherlock-blue" alt="Based on Sherlock"></a>
     <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-brightgreen" alt="Python 3.8+"></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-    <a href="https://github.com/yourusername/sherlock-gui/releases"><img src="https://img.shields.io/github/v/release/yourusername/sherlock-gui" alt="Release"></a>
+    <a href="https://github.com/FeelTheFonk/sherlockGui/releases"><img src="https://img.shields.io/github/v/release/FeelTheFonk/sherlockGui" alt="Release"></a>
   </p>
+  
+  <hr style="width:50%">
 </div>
 
-## 📋 Description
+<table>
+  <tr>
+    <td width="70%">
+      <h2>Description</h2>
+      <p>SherlockGUI est une interface graphique pour <a href="https://github.com/sherlock-project/sherlock">Sherlock</a>, un outil puissant permettant de rechercher des noms d'utilisateur à travers plus de 400 réseaux sociaux et sites web. Cette interface offre une expérience utilisateur intuitive et rend l'utilisation de Sherlock accessible à tous.</p>
+    </td>
+    <td width="30%" align="center">
+      <img src="docs/images/app-preview.png" alt="Aperçu de l'application" width="100%">
+    </td>
+  </tr>
+</table>
 
-SherlockGUI est une interface graphique pour [Sherlock](https://github.com/sherlock-project/sherlock), un outil puissant permettant de rechercher des noms d'utilisateur à travers plus de 400 réseaux sociaux et sites web. Cette interface offre une expérience utilisateur intuitive et rend l'utilisation de Sherlock accessible à tous.
+<div style="background-color:#f6f8fa; padding:15px; border-radius:5px; margin:20px 0;">
+  <h2>Fonctionnalités</h2>
+  <table>
+    <tr>
+      <td width="50%">
+        <ul>
+          <li><strong>Interface utilisateur intuitive</strong> avec onglets organisés</li>
+          <li><strong>Recherche de plusieurs noms d'utilisateur</strong> en une seule requête</li>
+          <li><strong>Support pour plus de 400 plateformes</strong> (réseaux sociaux, forums, sites web)</li>
+          <li><strong>Multiples formats d'export</strong> (TXT, CSV, XLSX)</li>
+        </ul>
+      </td>
+      <td width="50%">
+        <ul>
+          <li><strong>Options avancées</strong> (utilisation de Tor, proxy, timeout personnalisé)</li>
+          <li><strong>Sélection/filtrage des sites</strong> pour des recherches ciblées</li>
+          <li><strong>Statistiques en temps réel</strong> pendant la recherche</li>
+          <li><strong>Interface claire et élégante</strong></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
 
-## 🌟 Fonctionnalités
+<hr>
 
-- ✅ **Interface utilisateur intuitive** avec onglets organisés
-- 🔍 **Recherche de plusieurs noms d'utilisateur** en une seule requête
-- 🌐 **Support pour plus de 400 plateformes** (réseaux sociaux, forums, sites web)
-- 📊 **Multiples formats d'export** (TXT, CSV, XLSX)
-- 🛠️ **Options avancées** (utilisation de Tor, proxy, timeout personnalisé)
-- 🔎 **Sélection/filtrage des sites** pour des recherches ciblées
-- 📈 **Statistiques en temps réel** pendant la recherche
-- 🌙 **Interface claire et élégante**
+<h2>Installation</h2>
 
----
+<h3>Prérequis</h3>
 
-## 💻 Installation
+<div style="background-color:#f6f8fa; padding:15px; border-radius:5px; margin:10px 0;">
+  <ul>
+    <li>Python 3.8 ou supérieur</li>
+    <li>Sherlock installé sur votre système</li>
+  </ul>
+</div>
 
-### Prérequis
+<h3>Méthodes d'installation</h3>
 
-- Python 3.8 ou supérieur
-- Sherlock installé sur votre système
+<details>
+  <summary><strong>Installation depuis les versions précompilées</strong></summary>
+  <div style="padding:15px">
+    <ol>
+      <li>Téléchargez la dernière version précompilée depuis la <a href="https://github.com/FeelTheFonk/sherlockGui/releases">page des releases</a></li>
+      <li>Extrayez l'archive dans le dossier de votre choix</li>
+      <li>Exécutez l'application</li>
+    </ol>
+  </div>
+</details>
 
-### Méthode 1 : Installation depuis les versions précompilées
-
-1. Téléchargez la dernière version précompilée depuis la [page des releases](https://github.com/yourusername/sherlock-gui/releases)
-2. Extrayez l'archive dans le dossier de votre choix
-3. Exécutez l'application
-
-### Méthode 2 : Installation depuis la source
-
-```bash
+<details>
+  <summary><strong>Installation depuis la source</strong></summary>
+  <div style="padding:15px">
+    <pre><code>
 # Cloner le dépôt
 git clone https://github.com/FeelTheFonk/sherlockGui.git
 cd sherlock-gui
@@ -54,63 +90,119 @@ pip install -r requirements.txt
 
 # Lancer l'application
 python main.py
-```
+    </code></pre>
+  </div>
+</details>
 
----
+<hr>
 
-## 🚀 Utilisation
+<h2>Utilisation</h2>
 
-1. **Lancement de l'application** : Exécutez l'application depuis votre système de fichiers ou via la commande
-2. **Saisie des noms d'utilisateur** : Entrez un ou plusieurs noms d'utilisateur (séparés par des espaces)
-3. **Configuration des options** : Sélectionnez les options souhaitées (format d'export, timeout, etc.)
-4. **Sélection des sites** (optionnel) : Choisissez les sites spécifiques à vérifier
-5. **Lancement de la recherche** : Cliquez sur "Lancer la recherche"
-6. **Consultation des résultats** : Visualisez les résultats dans l'onglet "Résultats"
-7. **Export des résultats** : Exportez les résultats dans le format souhaité
+<div class="usage-guide" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin:20px 0;">
+  <div style="flex:1; min-width:250px; background-color:#f6f8fa; padding:15px; border-radius:5px;">
+    <h3>1. Recherche de base</h3>
+    <ol>
+      <li>Lancez l'application</li>
+      <li>Entrez un ou plusieurs noms d'utilisateur (séparés par des espaces)</li>
+      <li>Cliquez sur "Lancer la recherche"</li>
+      <li>Consultez les résultats dans l'onglet "Résultats"</li>
+    </ol>
+  </div>
+  
+  <div style="flex:1; min-width:250px; background-color:#f6f8fa; padding:15px; border-radius:5px;">
+    <h3>2. Configuration des options</h3>
+    <ol>
+      <li>Sélectionnez les formats d'export souhaités (CSV, XLSX)</li>
+      <li>Définissez le timeout si nécessaire</li>
+      <li>Choisissez entre afficher tous les résultats ou seulement les profils trouvés</li>
+      <li>Activez/désactivez les options selon vos besoins</li>
+    </ol>
+  </div>
+  
+  <div style="flex:1; min-width:250px; background-color:#f6f8fa; padding:15px; border-radius:5px;">
+    <h3>3. Sélection des sites</h3>
+    <ol>
+      <li>Accédez à l'onglet "Sites Spécifiques"</li>
+      <li>Utilisez la recherche pour filtrer les sites</li>
+      <li>Sélectionnez les sites individuellement ou utilisez les boutons de sélection rapide</li>
+      <li>Retournez à l'onglet "Recherche" pour lancer la recherche</li>
+    </ol>
+  </div>
+</div>
 
-## ⚙️ Configuration avancée
+<hr>
 
-### Options Tor
+<h2>Configuration avancée</h2>
 
-Si vous souhaitez anonymiser vos recherches, SherlockGUI prend en charge l'utilisation du réseau Tor :
+<table>
+  <tr>
+    <td width="33%" style="vertical-align:top; padding:10px;">
+      <h3>Options Tor</h3>
+      <p>Pour anonymiser vos recherches via le réseau Tor :</p>
+      <ol>
+        <li>Assurez-vous que Tor est installé sur votre système</li>
+        <li>Activez l'option "Utiliser Tor" dans l'onglet "Options Avancées"</li>
+        <li>Optionnellement, activez "Tor unique" pour utiliser un nouveau circuit après chaque requête</li>
+      </ol>
+    </td>
+    <td width="33%" style="vertical-align:top; padding:10px;">
+      <h3>Utilisation d'un proxy</h3>
+      <p>Pour utiliser un proxy avec SherlockGUI :</p>
+      <ol>
+        <li>Accédez à l'onglet "Options Avancées"</li>
+        <li>Entrez l'URL du proxy (ex: socks5://127.0.0.1:1080)</li>
+      </ol>
+    </td>
+    <td width="33%" style="vertical-align:top; padding:10px;">
+      <h3>Fichier JSON personnalisé</h3>
+      <p>Pour utiliser votre propre définition de sites :</p>
+      <ol>
+        <li>Accédez à l'onglet "Options Avancées"</li>
+        <li>Spécifiez le chemin vers votre fichier JSON personnalisé</li>
+      </ol>
+    </td>
+  </tr>
+</table>
 
-1. Assurez-vous que Tor est installé sur votre système
-2. Activez l'option "Utiliser Tor" dans l'onglet "Options Avancées"
-3. Optionnellement, activez "Tor unique" pour utiliser un nouveau circuit après chaque requête
+<hr>
 
-### Utilisation d'un proxy
+<h2>Contribution</h2>
 
-Pour utiliser un proxy avec SherlockGUI :
+<p>Les contributions sont les bienvenues ! Pour contribuer à SherlockGUI :</p>
 
-1. Accédez à l'onglet "Options Avancées"
-2. Entrez l'URL du proxy (ex: socks5://127.0.0.1:1080)
+<div style="background-color:#f6f8fa; padding:15px; border-radius:5px; margin:10px 0; font-family:monospace;">
+  git clone https://github.com/FeelTheFonk/sherlockGui.git<br>
+  cd sherlock-gui<br>
+  git checkout -b feature/ma-nouvelle-fonctionnalite<br>
+  # Développement de votre fonctionnalité<br>
+  git commit -m "Ajout de ma nouvelle fonctionnalité"<br>
+  git push origin feature/ma-nouvelle-fonctionnalite<br>
+  # Créez ensuite une Pull Request sur GitHub
+</div>
 
-### Personnalisation du fichier JSON
+<p>Veuillez consulter le fichier <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> pour plus de détails sur notre processus de contribution.</p>
 
-Pour utiliser un fichier JSON personnalisé contenant vos propres définitions de sites :
+<hr>
 
-1. Accédez à l'onglet "Options Avancées"
-2. Spécifiez le chemin vers votre fichier JSON personnalisé
+<h2>Crédits</h2>
 
----
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin:20px 0;">
+  <div style="flex:1; min-width:200px; text-align:center;">
+    <img src="https://github.com/sherlock-project/sherlock/raw/master/images/sherlock_header.png" alt="Sherlock Project" height="60">
+    <p>L'outil original sur lequel cette interface est basée</p>
+  </div>
+  
+  <div style="flex:1; min-width:200px; text-align:center;">
+    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python" height="60">
+    <p>Le langage de programmation utilisé</p>
+  </div>
+  
+  <div style="flex:1; min-width:200px; text-align:center;">
+    <img src="https://tcl.tk/images/Tcl-Tk-logo.jpg" alt="Tkinter" height="60">
+    <p>La bibliothèque d'interface graphique utilisée</p>
+  </div>
+</div>
 
-## 👥 Contribution
-
-Les contributions sont les bienvenues ! Pour contribuer à SherlockGUI :
-
-1. Fork le projet
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
-
-Veuillez consulter le fichier [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de détails.
-
----
-
-## 🙏 Crédits
-
-- [Sherlock Project](https://github.com/sherlock-project/sherlock) - L'outil original sur lequel cette interface est basée
-- [Tkinter](https://docs.python.org/3/library/tkinter.html) - La bibliothèque d'interface graphique utilisée
-
----
+<div align="center">
+  <p>Copyright © 2025 SherlockGUI Team</p>
+</div>
