@@ -1,7 +1,7 @@
 # SherlockGUI
 
 <div align="center">
-  <img src="" alt="SherlockGUI Logo" width="200">
+  <img src="sherlock.png" alt="SherlockGUI Logo" width="200">
   <br>
   <p><strong>Interface graphique pour Sherlock - Détecteur de noms d'utilisateur sur les réseaux sociaux</strong></p>
   <p>
